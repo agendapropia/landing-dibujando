@@ -3484,13 +3484,13 @@ em.state-invalid {
   background: #212121;
 }
 .btn.btn-black {
-  background: #000;
-  border: .1429rem solid #000;
+  background: #B3864F;
+  border: 0.1429rem solid #B3864F;
   color: #fff;
 }
 .btn.btn-black:hover {
   background: none;
-  color: #000;
+  color: #B3864F;
 }
 .btn:focus {
   outline: none;
@@ -4528,6 +4528,9 @@ pre {
 }
 .ninoyukpa {
   background-image: url('../img/Nino-yukpa/back-nino-yukpa-min.jpg');
+}
+.delamontaba {
+  background-image: url('../img/de-la-montana-a-un-rio/back-ninomontana-min.jpg');
 }
 .visual-banner {
   background-image: url('../img/visual-14.jpg');
@@ -6839,6 +6842,42 @@ a.full-width-icon:hover .social-text {
   margin-top: -.0625rem;
 }
 /******* blockquote styles *******/
+.destacados {
+  margin: 40px 0px 45px 0px;
+}
+blockquote {
+  font-weight: 100;
+  font-size: 1.3rem;
+  max-width: 600px;
+  line-height: 1.4;
+  position: relative;
+  margin: 10px 10px 10px 35px;
+  font-family: 'Poppins';
+}
+blockquote:before, blockquote:after {
+  position: absolute;
+  color: #f1efe6;
+  font-size: 8rem;
+  width: 4rem;
+  height: 4rem;
+}
+blockquote:before {
+  content: '“';
+  left: -5rem;
+  top: -2rem;
+}
+blockquote:after {
+  content: '”';
+  right: -5rem;
+  bottom: 1rem;
+}
+cite {
+  line-height: 3;
+  text-align: left;
+  font-weight: bold;
+  color: #264A50;
+  margin: 10px 10px 10px 35px;
+}
 .blockquote-block blockquote {
   padding: .625rem 1.25rem;
   border-left: 5px solid #f8f8f8;
@@ -6883,7 +6922,7 @@ a.full-width-icon:hover .social-text {
 }
 .blockquote-block.blockquote-block-v2 blockquote:before {
   position: absolute;
-  font-family: 'roxine-font-icon' !important;
+  font-family: '"' !important;
   content: '\f2ff';
   top: 0;
   left: 0;
@@ -6891,7 +6930,13 @@ a.full-width-icon:hover .social-text {
   color: #264A50;
 }
 .blockquote-block.blockquote-block-v2 blockquote:after {
-  display: none;
+  content: '"';
+  position: absolute;
+  top: 0.28em;
+  right: 0;
+  font-size: 6em;
+  color: #e7e6e4;
+  z-index: -1;
 }
 .blockquote-block.blockquote-block-v3 blockquote {
   border: none;
@@ -7016,17 +7061,17 @@ a.full-width-icon:hover .social-text {
   z-index: 9999999999;
 }
 .modal-wrap button.close {
-position: absolute;
-    top: 7px;
-    right: 15px;
-    padding: 0;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    text-shadow: none;
-    outline: none;
-    z-index: 10;
-    font-size: 40px;
-    font-weight: bold;
+  position: absolute;
+  top: 7px;
+  right: 15px;
+  padding: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  text-shadow: none;
+  outline: none;
+  z-index: 10;
+  font-size: 40px;
+  font-weight: bold;
 }
 .modal-wrap .modal-footer {
   padding: 30px 15px;
@@ -7519,41 +7564,49 @@ position: absolute;
   -webkit-transition-delay: .08s;
   -o-transition-delay: .08s;
   transition-delay: .08s;
+  cursor: pointer;
 }
 .nav-wrap ul.side-nav > li:nth-child(2) > a, .nav-wrap .header-links ul > li:nth-child(2) > a {
   -webkit-transition-delay: .16s;
   -o-transition-delay: .16s;
   transition-delay: .16s;
+  cursor: pointer;
 }
 .nav-wrap ul.side-nav > li:nth-child(3) > a, .nav-wrap .header-links ul > li:nth-child(3) > a {
   -webkit-transition-delay: .24s;
   -o-transition-delay: .24s;
   transition-delay: .24s;
+  cursor: pointer;
 }
 .nav-wrap ul.side-nav > li:nth-child(4) > a, .nav-wrap .header-links ul > li:nth-child(4) > a {
   -webkit-transition-delay: .32s;
   -o-transition-delay: .32s;
   transition-delay: .32s;
+  cursor: pointer;
 }
 .nav-wrap ul.side-nav > li:nth-child(5) > a, .nav-wrap .header-links ul > li:nth-child(5) > a {
   -webkit-transition-delay: .40s;
   -o-transition-delay: .40s;
   transition-delay: .40s;
+  cursor: pointer;
 }
 .nav-wrap ul.side-nav > li:nth-child(6) > a, .nav-wrap .header-links ul > li:nth-child(6) > a {
   -webkit-transition-delay: .40s;
   -o-transition-delay: .40s;
   transition-delay: .40s;
+  cursor: pointer;
 }
 .nav-wrap ul.side-nav > li:nth-child(7) > a, .nav-wrap .header-links ul > li:nth-child(7) > a {
   -webkit-transition-delay: .40s;
   -o-transition-delay: .40s;
   transition-delay: .40s;
+  cursor: pointer;
 }
 .nav-wrap ul.side-nav > li:nth-child(8) > a, .nav-wrap .header-links ul > li:nth-child(8) > a {
   -webkit-transition-delay: .40s;
   -o-transition-delay: .40s;
   transition-delay: .40s;
+  cursor: pointer;
 }
 .nav-wrap .dropdown-menu {
   position: relative;
