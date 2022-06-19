@@ -1,0 +1,192 @@
+.containerpieAP {
+  padding: 80px 0px 80px 0px;
+}
+
+
+
+
+.icon-guia {
+  width: 20%;
+}
+.logo-especial img {
+  display: block;
+  margin: auto;
+}
+.Capitularninos {
+  float: left;
+  font-size: 100px;
+  margin-right: 16px;
+  margin-top: -83px;
+  color: #CCCCCC;
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 0px !important;
+  height: 120px;
+}
+.texto-intro {
+  z-index: 21;
+  position: relative;
+  padding: 380px 0px 20px 0px;
+}
+.texto-intro h1 {
+  color: white;
+  /*font-family: 'Chewy', cursive;
+	font-family: 'Slackey', cursive;
+  font-family: 'Unkempt', cursive;*/
+  font-family: 'Coming Soon', cursive;
+  font-size: 5.75rem;
+  font-weight: bold;
+}
+.texto-intro p {
+  color: white;
+}
+.txtperiodistico p {
+  font-size: 25px;
+  letter-spacing: 10px;
+  color: white;
+}
+.txtdescriptespe span {
+  font-size: 23px;
+  background-color: white;
+  padding: 9px;
+  font-style: italic;
+  color: black;
+  margin-right: 10px;
+}
+.txtdescriptespe p {
+  font-size: 19px;
+  color: white;
+}
+.contentcreditos {
+  padding: 80px 0px 0px 0px;
+}
+.titlenotahome {
+  line-height: 1.3;
+  font-size: 1.3rem;
+  color: #000000;
+}
+.historiasagenda p {
+  color: black;
+}
+.descripcionfoto1 {
+  margin: 22px 0px 22px 0px;
+}
+.descripcionfoto1 p {
+  font-size: 12px;
+}
+.descripcionfoto2 {
+  top: 30px;
+  position: relative;
+}
+.descripcionfoto2 p {
+  font-size: 12px;
+}
+.txtpie {
+  font-family: 'Poppins';
+}
+.imginterpopu {
+  display: block;
+  margin: auto;
+  width: 25%;
+}
+.integranteAP h3 {
+  font-size: 1.6rem;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #AC8757;
+  padding-bottom: 17px;
+  font-family: 'Poppins';
+}
+.integranteAP ul {
+  padding-left: 0px;
+}
+.integranteAP li {
+  list-style: none;
+  margin-left: 5px;
+  margin-bottom: 22px;
+  font-size: 15px;
+}
+.integranteAP li a {
+  color: #264A50;
+  font-weight: 500;
+  text-decoration: none;
+  outline: none;
+  -webkit-transition: all linear .2s;
+  -o-transition: all linear .2s;
+  transition: all linear .2s;
+}
+.integranteAP li a:hover {
+  color: #39676e;
+}
+.integranteAP li img {
+  width: 15%;
+  margin-right: 11px;
+}
+
+.nombreinterno{
+	font-family: 'Poppins';
+    margin: 40px 0px 25px 0px;
+    font-weight: bold;
+}
+
+.redesintegrantes{
+	text-align: right;
+    margin: 10px 0px 25px 0px;
+}
+
+.redesintegrantes a{
+	font-size: 20px;
+    margin-right: 15px;
+	color: #264A50;
+}
+
+.redesintegrantes a:hover{
+	text-decoration: none;
+	color: #264A50;
+}
+    
+
+
+.agendafooter {
+  background-image: url("../img/backfooter.png");
+  padding: 90px 50px 30px 50px;
+}
+.agendafooter img {
+  display: block;
+  margin: auto;
+  padding: 20px 0px 50px 0px;
+}
+.descriptpie {
+  padding: 20px 0px 50px 0px;
+}
+.descriptpie p {
+  color: #96682E;
+  font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.contentredespie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.social-network a {
+  color: #264A50 !important;
+}
+.social-network a:hover {
+  color: #264A50 !important;
+}
+.footer .footer-main {
+  background-color: inherit !important;
+}
+.footer .footer-bottom {
+  background-color: inherit !important;
+}
+.copiepie {
+  padding: 50px 0px 10px 0px;
+}
+.copiepie p {
+  color: #96682E !important;
+}
+.copiepie p span {
+  color: #264A50 !important;
+}
