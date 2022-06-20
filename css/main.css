@@ -4532,6 +4532,9 @@ pre {
 .delamontaba {
   background-image: url('../img/de-la-montana-a-un-rio/back-ninomontana-min.jpg');
 }
+.elexiliodelaninez {
+  background-image: url('../img/el-exilio-de-la-ninez-lenca/back-el-exilio-min.jpg');
+}
 .visual-banner {
   background-image: url('../img/visual-14.jpg');
 }
@@ -5593,13 +5596,13 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
   transition: all .3s linear;
 }
 .social-network a:hover .icon-facebook {
-  color: #3b5998;
+  color: #264A50;
 }
 .social-network a:hover .icon-twitter {
-  color: #1da1f2;
+  color: #264A50;
 }
 .social-network a:hover .icon-google-plus {
-  color: #dd4b39;
+  color: #264A50;
 }
 .social-network a:hover .icon-pinterest {
   color: #bd081c;
@@ -10182,7 +10185,7 @@ cite {
     float: right !important;
   }
   .main-header {
-    background: #212121;
+    background: white;
   }
   .main-header.sticky-nav .navbar .navbar-nav li a {
     padding: .625rem 0;
