@@ -71,7 +71,6 @@
 }
 .descripcionfoto1 {
   margin: 22px 0px 22px 0px;
-  padding: 10px;
 }
 .descripcionfoto1 p {
   font-size: 12px;
@@ -220,6 +219,9 @@
   .txtdescriptespe span {
     font-size: 20px;
   }
+  .descripcionfoto1 {
+    padding: 10px;
+  }
 }
 @media(max-width: 414px) {
   blockquote:before {
@@ -246,6 +248,9 @@
   }
   .txtdescriptespe span {
     font-size: 20px;
+  }
+  .descripcionfoto1 {
+    padding: 10px;
   }
 }
 @media(max-width: 411px) {
@@ -274,6 +279,9 @@
   .txtdescriptespe span {
     font-size: 20px;
   }
+  .descripcionfoto1 {
+    padding: 10px;
+  }
 }
 @media(max-width: 384px) {
   blockquote:before {
@@ -300,6 +308,9 @@
   }
   .txtdescriptespe span {
     font-size: 20px;
+  }
+  .descripcionfoto1 {
+    padding: 10px;
   }
 }
 @media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
@@ -328,6 +339,9 @@
   .txtdescriptespe span {
     font-size: 20px;
   }
+  .descripcionfoto1 {
+    padding: 10px;
+  }
 }
 @media only screen and (device-width : 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 2) {
   blockquote:before {
@@ -355,6 +369,9 @@
   .txtdescriptespe span {
     font-size: 20px;
   }
+  .descripcionfoto1 {
+    padding: 10px;
+  }
 }
 @media(max-width: 320px) {
   blockquote:before {
@@ -381,6 +398,9 @@
   }
   .txtdescriptespe span {
     font-size: 20px;
+  }
+  .descripcionfoto1 {
+    padding: 10px;
   }
 }
 @media(max-width: 736px) and (orientation:landscape) {}
