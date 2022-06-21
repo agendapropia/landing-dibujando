@@ -1,3 +1,16 @@
+.visual {
+  display: block;
+}
+.backmovilprincipal {
+  display: none;
+  margin-top: 60px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.backmovilprincipal .descripcionfoto2 {
+  padding: 0px 20px 0px 20px;
+  text-align: center;
+}
 .img-movil-home {
   background-image: url("../img/imgmovilhome.jpg") !important;
   display: none;
@@ -253,6 +266,12 @@
   .img-movil-home video {
     display: none;
   }
+  .visual {
+    display: none;
+  }
+  .backmovilprincipal {
+    display: block;
+  }
 }
 @media(max-width: 414px) {
   blockquote:before {
@@ -290,6 +309,12 @@
   }
   .img-movil-home video {
     display: none;
+  }
+  .visual {
+    display: none;
+  }
+  .backmovilprincipal {
+    display: block;
   }
 }
 @media(max-width: 411px) {
@@ -329,6 +354,12 @@
   .img-movil-home video {
     display: none;
   }
+  .visual {
+    display: none;
+  }
+  .backmovilprincipal {
+    display: block;
+  }
 }
 @media(max-width: 384px) {
   blockquote:before {
@@ -366,6 +397,12 @@
   }
   .img-movil-home video {
     display: none;
+  }
+  .visual {
+    display: none;
+  }
+  .backmovilprincipal {
+    display: block;
   }
 }
 @media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
@@ -405,6 +442,12 @@
   .img-movil-home video {
     display: none;
   }
+  .visual {
+    display: none;
+  }
+  .backmovilprincipal {
+    display: block;
+  }
 }
 @media only screen and (device-width : 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 2) {
   blockquote:before {
@@ -443,6 +486,12 @@
   .img-movil-home video {
     display: none;
   }
+  .visual {
+    display: none;
+  }
+  .backmovilprincipal {
+    display: block;
+  }
 }
 @media(max-width: 320px) {
   blockquote:before {
@@ -480,6 +529,12 @@
   }
   .img-movil-home video {
     display: none;
+  }
+  .visual {
+    display: none;
+  }
+  .backmovilprincipal {
+    display: block;
   }
 }
 @media(max-width: 736px) and (orientation:landscape) {}
