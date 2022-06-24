@@ -4537,10 +4537,14 @@ pre {
   background-image: url('../img/entre-pakllas-pingullos/back-ninez_Kichwa_Kitu-min.jpg');
 }
 
-
 .elexiliodelaninez {
   background-image: url('../img/el-exilio-de-la-ninez-lenca/back-el-exilio-min.jpg');
 }
+
+.gabrielaback {
+  background-image: url('../img/gabriela/back-gabriela-min.jpg');
+}
+
 .visual-banner {
   background-image: url('../img/visual-14.jpg');
 }
@@ -7612,6 +7616,12 @@ cite {
   cursor: pointer;
 }
 .nav-wrap ul.side-nav > li:nth-child(8) > a, .nav-wrap .header-links ul > li:nth-child(8) > a {
+  -webkit-transition-delay: .40s;
+  -o-transition-delay: .40s;
+  transition-delay: .40s;
+  cursor: pointer;
+}
+.nav-wrap ul.side-nav > li:nth-child(9) > a, .nav-wrap .header-links ul > li:nth-child(9) > a {
   -webkit-transition-delay: .40s;
   -o-transition-delay: .40s;
   transition-delay: .40s;
